@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 1800px;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 10px #ddd;
+    border-radius: 10px;
+    display: flex;
+    margin: 50px auto;
+}
+/* css form */
+form {
+    width: 450px;
+    height: 500px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 22px;
+    margin-left: 10px;
+}
+input {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+#studentId, #phone, #address, #fullName, #mail {
+    width: 260px;
+}
+#studentId {
+    margin-left: 20px;
+}
+#fullName {
+    margin-left: 45px;
+}
+#mail {
+    margin-left: 75px;
+}
+#phone {
+    margin-left: 10px;
+}
+#address {
+    margin-left: 40px;
+}
+#male {
+    margin-left: 40px;
+}
+#female {
+    margin-left: 10px;
+}
+#btnSave {
+    width: 100px;
+    height: 40px;
+    font-size: 22px;
+    margin: 20px 150px;
+}
+/* css danh sách học viên */
+
+.studentList {
+    width: 1300px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+}
+#search {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#btnSearch {
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+}
+table, th, td{
+    width: 1250px;
+    height: auto;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+table {
+    margin-left: 10px;
+}

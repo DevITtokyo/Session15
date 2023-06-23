@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rikkei Academy</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <form action="#">
+            <h2 class="inforTitle">Thông tin học viên</h2>
+
+            <label for="studentID">Mã sinh viên</label>
+            <input type="text" name="studentId" id="studentId" placeholder="Vui lòng nhập mã sinh viên"></br>
+
+            <label for="fullName">Họ và tên</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Vui lòng nhập tên"></br>
+
+            <label for="mail">Email</label>
+            <input type="mail" name="mail" id="mail" placeholder="Vui lòng nhập email"></br>
+
+            <label for="phone">Số điện thoại</label>
+            <input type="text" name="phone" id="phone" placeholder="Vui lòng nhập số điện thoại"></br>
+
+            <label for="address">Quê quán</label>
+            <input type="text" name="address" id="address" placeholder="Vui lòng nhập địa chỉ quê quán"></br>
+
+            <label for="sex">Giới tính</label>
+            <input type="radio" name="sex" id="male" value="Nam" checked>
+            <label for="male">Nam</label>
+            <input type="radio" name="sex" id="female" value="Nữ">
+            <label for="female">Nữ</label></br>
+
+            <input type="submit" value="Lưu lại" id="btnSave"/>
+
+        </form>
+
+        <div class="studentList">
+            <h2 class="listTitle">Danh sách học viên</h2>
+
+            <label for="search">Tìm kiếm học viên</label>
+            <input type="text" name="search" id="search">
+            <input type="button" id="btnSearch" value="search">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Mã sinh viên</th>
+                        <th>Họ tên</th>
+                        <th>Email</th>
+                        <th>Điện thoại</th>
+                        <th>Địa chỉ</th>
+                        <th>Giới tính</th>
+                        <th>Hành động</th>
+                        <th>
+                            <input type="button" value="Sắp xếp (alpha b)">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="content">
+                    <tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
